@@ -1,0 +1,91 @@
+<link rel="stylesheet" type="text/css" href="/styles/login.css">
+<div class="login-page">
+
+
+	<div class="login-modal">
+		<div class="header">
+			<img src="imgs/logo.png">
+			<h2>Sign up to start writing</h2>
+		</div>
+
+
+		<div class="social-buttons">
+			<a href="/auth/twitter">
+				<div class="btn twitter">
+					<i class="fa fa-twitter" aria-hidden="true"></i>
+					<span>Sign up with Twitter</span>
+				</div>
+			</a>
+
+			<a href="/auth/google">
+				<div class="btn google">
+					<i class="fa fa-google" aria-hidden="true"></i>
+					<span>Sign up with Google</span>
+				</div>
+			</a>
+		</div>
+
+		<h3>Or</h3>
+
+		<div class="email-sign-up">
+			<% if (errors) {%>
+			  <div class="errors">
+			  <% errors.forEach(function (error) { %>
+			  	<%
+			    if (error == "Error.Passport.Username.Missing"){
+			    	%> <span>Please enter your chosen username</span> <%
+			    } else if (error == "Error.Passport.User.Exists" ){
+			    	%> <span>Looks like you've signed up before. <a href="/login">Login Here</a></span> <%
+			    }else if (error == "Error.Passport.Email.Missing"){
+			    	%> <span>Please enter a valid email address.</span> <%
+			    } else if (error == "Error.Passport.Password.Missing"){
+			    	%> <span>Please enter a password</span> <%
+			    } else if (error == "Error.Passport.Email.Exists")
+			    	%> <span>Please enter a valid email address</span> <%
+			   }) %>
+			  </div>
+			<% } %>
+			<form role="form" action="/auth/local/register" method="post">
+				
+	        <div class="row">
+	           <i class="fa fa-user" aria-hidden="true"></i>
+	           <input type="text" name="username" placeholder="Choose a username">
+	        </div>
+
+	        <div class="row">
+	           <i class="fa fa-envelope" aria-hidden="true"></i>
+	           <input type="text" name="email" placeholder="Enter your email address">
+	        </div>
+
+			<div class="row">
+			  <i class="fa fa-lock" aria-hidden="true"></i>
+			  <input type="password" name="password" placeholder="Enter your password">
+			</div>
+
+			<div class="subscription">
+				<input name="sub" id="sub" type="checkbox" checked>
+				<span>I’d like to receive ideas for press releases</span>
+			</div>
+
+			<div class="tos">
+				<span>By signing up, I agree to PingGo’s Terms and Privacy Policy. <!-- <a href="#">View all here<i class="fa fa-chevron-right" aria-hidden="true"></i></a> --></span>
+			</div>
+
+			  <button type="submit" class="btn __main __input">Sign up</button>
+			</form>					
+		</div>
+
+		<div class="login-mini">
+			<span>Already on PingGo?</span>
+			<a href="/login">
+				<div class="btn">Log in</div>
+			</a>
+		</div>
+
+
+
+
+
+	</div>
+
+</div>

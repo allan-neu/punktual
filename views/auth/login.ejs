@@ -1,0 +1,78 @@
+<link rel="stylesheet" type="text/css" href="/styles/login.css">
+<div class="login-page">
+
+
+  <div class="login-modal">
+    <div class="header">
+      <img src="imgs/logo.png">
+      <h2>Log into your profile</h2>
+    </div>
+
+
+    <div class="social-buttons">
+      <a href="/auth/twitter">
+        <div class="btn twitter">
+          <i class="fa fa-twitter" aria-hidden="true"></i>
+          <span>Log in with Twitter</span>
+        </div>
+      </a>
+
+      <a href="/auth/google">
+        <div class="btn google">
+          <i class="fa fa-google" aria-hidden="true"></i>
+          <span>Log in with Google</span>
+        </div>
+      </a>
+    </div>
+
+    <h3>Or</h3>
+
+    <div class="email-sign-up">
+      <% if (errors) {%>
+        <div class="errors">
+        <% errors.forEach(function (error) { %>
+          <%
+          if (error == "Error.Passport.Generic"){
+            %> <span>Please enter your email address and password.</span> <%
+          } else if (error == "Error.Passport.Password.NotSet"){
+            %><span>Did you mean to use a social login?</span><%
+          } else if (error == "Error.Passport.Email.NotFound" || error == "Error.Passport.Username.NotFound"){
+            %> <span>Looks like you've not signed up before. <a href="/register">Signup Here</a></span> <%
+          }
+          }) %>
+        </div>
+      <% } %>
+      <form role="form" action="/auth/local" method="post">
+        <div class="row">
+           <i class="fa fa-envelope" aria-hidden="true"></i>
+           <input type="text" name="identifier" placeholder="Your Username or Email">
+        </div>
+        
+        <div class="row">
+          <i class="fa fa-lock" aria-hidden="true"></i>
+          <input type="password" name="password" placeholder="Enter your password">
+        </div>
+        
+        <button type="submit" class="btn __main __input">Log In</button>
+
+<!--       <div class="row">
+        <input name="remeber" id="remeber" type="checkbox" checked>
+        <span>Remember me</span>
+        <a href="#" class="forgotten-password">
+          Forgotten Password?
+        </a>
+      </div> -->
+
+      </form>         
+    </div>
+
+    <div class="login-mini">
+      <span>Not signed up yet?</span>
+      <a href="/register">
+        <div class="btn">Sign up</div>
+      </a>
+    </div>
+
+  </div>
+
+</div>

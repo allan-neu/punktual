@@ -1,0 +1,295 @@
+{
+  "data": {
+    "passport": [],
+    "review": [
+      {
+        "email": "allan@gmail.com",
+        "text": null,
+        "createdAt": "2016-08-25T14:41:38.154Z",
+        "updatedAt": "2016-08-25T14:41:38.154Z",
+        "id": 1
+      },
+      {
+        "email": "allan@gmail.com",
+        "text": null,
+        "createdAt": "2016-08-25T14:41:46.867Z",
+        "updatedAt": "2016-08-25T14:41:46.867Z",
+        "id": 2
+      },
+      {
+        "email": "jamie@gmail.com",
+        "text": "He's really punctual.",
+        "createdAt": "2016-08-25T14:42:51.499Z",
+        "updatedAt": "2016-08-25T14:42:51.499Z",
+        "id": 3
+      },
+      {
+        "email": "jamie@gmail.com",
+        "text": "He never turned up to our meeting even after 10 emails.",
+        "createdAt": "2016-08-25T14:45:49.535Z",
+        "updatedAt": "2016-08-25T14:45:49.535Z",
+        "id": 4
+      },
+      {
+        "email": "andykerr@gmail.com",
+        "text": "he never turned up to testing",
+        "createdAt": "2016-08-25T14:46:07.831Z",
+        "updatedAt": "2016-08-25T14:46:07.831Z",
+        "id": 5
+      },
+      {
+        "email": "all@gmail.com",
+        "text": "good ",
+        "positive": true,
+        "createdAt": "2016-08-25T16:02:37.270Z",
+        "updatedAt": "2016-08-25T16:02:37.270Z",
+        "id": 6
+      },
+      {
+        "email": "all@gmail.com",
+        "text": "bad one",
+        "positive": false,
+        "createdAt": "2016-08-25T16:04:24.143Z",
+        "updatedAt": "2016-08-25T16:04:24.143Z",
+        "id": 7
+      },
+      {
+        "email": "all@gmail.com",
+        "text": "bad one",
+        "positive": false,
+        "createdAt": "2016-08-25T16:05:08.664Z",
+        "updatedAt": "2016-08-25T16:05:08.664Z",
+        "id": 8
+      },
+      {
+        "email": "man@gmail.com",
+        "text": "He's actually really punctual",
+        "positive": true,
+        "createdAt": "2016-08-25T16:05:48.079Z",
+        "updatedAt": "2016-08-25T16:05:48.079Z",
+        "id": 9
+      },
+      {
+        "email": "man@gmail.com",
+        "text": "He's really rubbish.",
+        "positive": false,
+        "createdAt": "2016-08-25T16:06:05.589Z",
+        "updatedAt": "2016-08-25T16:06:05.589Z",
+        "id": 10
+      },
+      {
+        "email": "man@gmail.com",
+        "text": "He's really rubbish.",
+        "positive": false,
+        "createdAt": "2016-08-25T16:23:38.010Z",
+        "updatedAt": "2016-08-25T16:23:38.010Z",
+        "id": 11
+      },
+      {
+        "email": "a@gmail.com",
+        "text": "good",
+        "positive": true,
+        "createdAt": "2016-08-25T16:24:11.025Z",
+        "updatedAt": "2016-08-25T16:24:11.025Z",
+        "id": 12
+      },
+      {
+        "email": null,
+        "text": "asdg",
+        "positive": false,
+        "createdAt": "2016-08-25T16:25:04.432Z",
+        "updatedAt": "2016-08-25T16:25:04.432Z",
+        "id": 13
+      },
+      {
+        "email": null,
+        "text": "asdg",
+        "positive": false,
+        "createdAt": "2016-08-25T16:25:21.996Z",
+        "updatedAt": "2016-08-25T16:25:21.996Z",
+        "id": 14
+      },
+      {
+        "email": "asdg@gasdg.com",
+        "text": "asdg",
+        "positive": false,
+        "createdAt": "2016-08-25T16:25:36.164Z",
+        "updatedAt": "2016-08-25T16:25:36.164Z",
+        "id": 15
+      },
+      {
+        "email": "a@a.com",
+        "text": "asdf",
+        "positive": false,
+        "createdAt": "2016-08-25T16:26:19.317Z",
+        "updatedAt": "2016-08-25T16:26:19.317Z",
+        "id": 16
+      },
+      {
+        "email": "a@b.com",
+        "text": "asdg",
+        "positive": false,
+        "createdAt": "2016-08-25T16:26:51.671Z",
+        "updatedAt": "2016-08-25T16:26:51.671Z",
+        "id": 17
+      },
+      {
+        "email": "b@b.com",
+        "text": "asdgsa",
+        "positive": false,
+        "createdAt": "2016-08-25T16:33:29.683Z",
+        "updatedAt": "2016-08-25T16:33:29.683Z",
+        "id": 18
+      },
+      {
+        "email": "asdg@gadg.com",
+        "text": "asdgsa",
+        "positive": false,
+        "createdAt": "2016-08-25T16:34:25.990Z",
+        "updatedAt": "2016-08-25T16:34:25.990Z",
+        "id": 19
+      },
+      {
+        "email": "asdgg@gasdg.com",
+        "text": "asdg",
+        "positive": false,
+        "createdAt": "2016-08-25T16:34:55.477Z",
+        "updatedAt": "2016-08-25T16:34:55.477Z",
+        "id": 20
+      },
+      {
+        "email": "asdg@gad.com",
+        "text": "asdg",
+        "positive": false,
+        "createdAt": "2016-08-25T16:35:40.473Z",
+        "updatedAt": "2016-08-25T16:35:40.473Z",
+        "id": 21
+      },
+      {
+        "email": "asdg@gad.com",
+        "text": "asdg",
+        "positive": false,
+        "createdAt": "2016-08-25T16:35:47.518Z",
+        "updatedAt": "2016-08-25T16:35:47.518Z",
+        "id": 22
+      },
+      {
+        "email": "asdg@gad.com",
+        "text": "good ",
+        "positive": true,
+        "createdAt": "2016-08-25T16:35:55.300Z",
+        "updatedAt": "2016-08-25T16:35:55.300Z",
+        "id": 23
+      },
+      {
+        "email": "stewart@hotmail.com",
+        "text": "He's a really good programmer and always turns up on time. ",
+        "positive": true,
+        "createdAt": "2016-08-25T17:01:38.115Z",
+        "updatedAt": "2016-08-25T17:01:38.115Z",
+        "id": 24
+      },
+      {
+        "email": "stewart@hotmail.com",
+        "text": "He's not been picking up his phone for four years. ",
+        "positive": false,
+        "createdAt": "2016-08-25T17:02:27.147Z",
+        "updatedAt": "2016-08-25T17:02:27.147Z",
+        "id": 25
+      }
+    ],
+    "user": []
+  },
+  "schema": {
+    "passport": {
+      "protocol": {
+        "type": "string"
+      },
+      "password": {
+        "type": "string"
+      },
+      "accessToken": {
+        "type": "string"
+      },
+      "provider": {
+        "type": "string"
+      },
+      "identifier": {
+        "type": "string"
+      },
+      "tokens": {
+        "type": "json"
+      },
+      "user": {
+        "type": "integer",
+        "model": "user",
+        "foreignKey": true,
+        "alias": "user"
+      },
+      "id": {
+        "type": "integer",
+        "autoIncrement": true,
+        "primaryKey": true,
+        "unique": true
+      },
+      "createdAt": {
+        "type": "datetime"
+      },
+      "updatedAt": {
+        "type": "datetime"
+      }
+    },
+    "review": {
+      "email": {
+        "type": "text"
+      },
+      "text": {
+        "type": "text"
+      },
+      "positive": {
+        "type": "boolean"
+      },
+      "id": {
+        "type": "integer",
+        "autoIncrement": true,
+        "primaryKey": true,
+        "unique": true
+      },
+      "createdAt": {
+        "type": "datetime"
+      },
+      "updatedAt": {
+        "type": "datetime"
+      }
+    },
+    "user": {
+      "username": {
+        "type": "string",
+        "unique": true
+      },
+      "email": {
+        "type": "string",
+        "unique": true
+      },
+      "id": {
+        "type": "integer",
+        "autoIncrement": true,
+        "primaryKey": true,
+        "unique": true
+      },
+      "createdAt": {
+        "type": "datetime"
+      },
+      "updatedAt": {
+        "type": "datetime"
+      }
+    }
+  },
+  "counters": {
+    "passport": {},
+    "user": {},
+    "review": {
+      "id": 25
+    }
+  }
+}

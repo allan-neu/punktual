@@ -1,0 +1,107 @@
+body {
+	background: #112;
+}
+.pageWrapper {
+	width: 100%;
+	h1 {
+		padding: 40px 0;
+		width: 100%;
+		text-align: center;
+		@include font-size(40);
+		letter-spacing: 10px;
+		font-weight: bold;
+		color: #fff;
+	}
+
+	.searchWrapper {
+		width: 100%;
+		text-align: center;
+		input {
+			width: 80%;
+			padding: 15px;
+			@include font-size(30);
+			border-radius: 10px;
+			outline: none;
+
+		}
+	}
+
+	.reviewDisplayer {
+		width: 100%;
+		.reviews {
+			display: block;
+			width: 80%;
+			margin: 0 auto;
+			.review {
+				margin: 20px 0;
+				background: #f13;
+				border-radius: 10px;
+				padding: 40px;
+				&.pos {
+					background: #cd2;
+				}
+				.date {
+					margin-bottom: 20px;
+				}
+				p {
+					@include font-size(15);
+				}
+			}
+		}
+	}
+	.reviewAdder {
+		margin: 20px auto;
+		width: 80%;
+		color: #fff;
+		h2 {
+					@include font-size(20);
+
+		}
+		button {
+			cursor: pointer;
+			padding: 5px;
+			border-radius: 5px;
+			@include font-size(15);
+			background: #3d2;
+			outline: none;
+			border: none;
+		}
+		.adderWrapper {
+			width: 100%;
+			margin: 20px 0;
+			background: #a3d;
+			border-radius: 10px;
+			padding: 30px; 
+
+			&.pos {
+				background: #cd2;
+			}
+
+			.posOrNeg {
+				@include font-size(20);
+				div {
+					cursor: pointer;
+					display: inline-block;
+					&:last-child {
+						margin-left: 20px;
+					}
+				}
+			}
+
+			textarea {
+				@include font-size(15);
+				width: 100%;
+				border: none;
+				outline: none;
+				background: none;
+			}
+			button {
+				background: #52e;
+				padding: 5px;
+				color: #fff;
+				cursor: pointer;
+			}
+		}
+	}
+
+}
